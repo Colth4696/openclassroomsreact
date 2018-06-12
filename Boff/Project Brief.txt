@@ -1,0 +1,42 @@
+﻿Project Brief
+
+
+Summary: 
+For the Brooklyn Outdoor Film Festival 2018, I chose to go with a Grindhouse theme. Grindhouse is an American term for a theater that mainly shows exploitation films. All of the movies are the top classics from the era. With the addition of Quentin Tarantino and Robert Rodriguez’ most recent renditions of the Grindhouse genre. Each of the four nights there will be two showings, one at 6:00pm and one at 9:00pm. Grindhouse may not be suitable for children under a certain age. Kid appropriate options will be shown on a different screen. 
+
+
+Web Address: www.boff.org
+
+
+Stakeholders:
+* Jennifer Viala - President 
+* Colt Hafer - Developer 
+
+
+Goals: 
+* To select and show films from August 5th to August 8th from 6:00pm to 12:00am for up to 5000 people per show. 
+* Have movies available that appeal to all age groups and audiences. 
+* Be able to communicate online and easily and  take reservations.
+* Have links to Brooklyn Bridge Park and Brooklyn News websites.
+
+
+Budget: $3500
+* Self: $800
+* A/B Testing:$ 1200
+* Domain: $100
+* Hosting: $200
+* Hardware: $600
+
+
+Timeline:
+* 3 days researching, gathering images, and determining color scheme
+* 3 days building HTML
+* 3 days building CSS
+* 2 days integrating Bootstrap
+* 4 days debugging
+
+
+Technical Specifications: 
+The fonts, images, and colors that were chosen are all meant to enhance the Grindhouse theme. Bootstrap was integrated to help with structure and format of the web page.
+ A Bootstrap form was also used for the registration page. HTML (Hypertext Markup Language) was used to fill the content of the web page. 
+CSS (Cascading Style Sheets) was used to help format and style the web page.

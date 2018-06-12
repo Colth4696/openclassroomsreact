@@ -1,0 +1,413 @@
+
+#main_wrapper
+{
+	background: url("imagez/background.jpg") fixed;
+	}
+	
+@font-face 
+{
+    font-family: 'brankovic';
+    src: url('brankovic.eot');
+    src: url('brankovic.eot?#iefix') format('embedded-opentype'),
+         url('brankovic.woff') format('woff'),
+         url('brankovic.ttf') format('truetype'),
+         url('brankovic.svg#brankovic') format('svg');
+}
+
+@font-face 
+{
+    font-family: 'metro-webfont';
+    src: url('metro-webfont.eot');
+    src: url('metro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('metro-webfont.woff') format('woff'),
+         url('metro-webfont.ttf') format('truetype'),
+         url('metro-webfont.svg#metro-webfont') format('svg');
+}
+
+@font-face 
+{
+    font-family: 'tiza-webfont';
+    src: url('tiza-webfont.eot');
+    src: url('tiza-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tiza-webfont.woff') format('woff'),
+         url('tiza-webfont.ttf') format('truetype'),
+         url('tiza-webfont.svg#tiza-webfont') format('svg');
+}
+
+
+#banner
+{
+	font-family: 'tiza-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 100px;
+    border-radius: 5px;
+    background: url('imagez/grind.jpg');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	border-bottom: 3px ridge orange;
+}
+	
+/* Navigation */
+
+nav
+{
+    display: inline-block;
+    /* width: 740px; */
+	height: 50px;
+    text-align: center;
+	font-family: 'brankovic';
+	background-color: rgba(255,242,0,0.4);
+	color: rgba(240,209,118,0.8);
+	border: 1px solid red;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px red;
+	/* margin-left: 300px; */
+	/* margin-right: 300px; */
+	
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+	
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/*Festival Information*/
+#about
+{
+	font-family: 'tiza-webfont';
+	color: rgba(168,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+	  position: relative;
+	  background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	border-bottom: 3px ridge orange;
+}
+
+button
+{
+	transition: transform .2s;
+}
+
+button:hover
+{
+	transform: scale(1.5);
+}
+
+#movie_a
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    min-height: 710px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+	}
+
+#movie_b
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 957px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#movie_c
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 1250px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#movie_d
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 1150px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#movie_e
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 915px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#movie_f
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 950px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#movie_g
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 1050px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#movie_h
+{
+	font-family: 'metro-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 1000px;
+    border-radius: 5px;
+    background: url('imagez/bubble.jpg') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+	
+}
+
+#kiddies
+{
+		font-family: 'tiza-webfont';
+	color: rgba(168,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+	  position: relative;
+	  background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	border-bottom: 3px ridge orange;
+}
+
+#kid_a
+{
+	font-family: 'metro-webfont';
+	color: rgba(255,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px white;
+	border: 2px ridge red;
+	transition: transform .2s;
+	}
+	
+#kid_a:hover
+{
+	transform: scale(1.5);
+}
+
+#kid_b
+{
+	font-family: 'metro-webfont';
+	color: rgba(255,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px white;
+	border: 2px ridge red;
+	transition: transform .2s;
+	}
+	
+#kid_b:hover
+{
+	transform: scale(1.5);
+}
+
+#kid_c
+{
+	font-family: 'metro-webfont';
+	color: rgba(255,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px white;
+	border: 2px ridge red;
+	transition: transform .2s;
+	}
+	
+#kid_c:hover
+{
+	transform: scale(1.5);
+}
+		
+#kid_d
+{
+	font-family: 'metro-webfont';
+	color: rgba(255,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px white;
+	border: 2px ridge red;
+	transition: transform .2s;
+	}
+	
+#kid_d:hover
+{
+	transform: scale(1.5);
+}
+	
+	
+#features img
+{
+	 border-radius: 5px;
+	  box-shadow: 0px 4px 4px #1c1a19;
+}
+
+#features img:hover
+{
+	opacity: 0.3;
+	color: red;
+}
+
+#movie_a, #movie_b, #movie_c, #movie_d, #movie_e, #movie_f, #movie_g, #movie_h
+{
+	display: block;
+}
+
+#register
+{
+	transition: transform .2s;
+}
+
+#register:hover
+{
+	transform: scale(1.5);
+}
+
+/*Festival News*/
+#news
+{
+		font-family: 'tiza-webfont';
+	color: rgba(168,0,0,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    border-radius: 5px;
+	  position: relative;
+	  background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+	border-bottom: 3px ridge orange;
+	
+}
+
+#affiliates
+{
+	font-family: 'tiza-webfont';
+	color: rgba(240,209,118,0.8);
+	text-align: center;
+	   margin-top: 15px;
+    height: 100px;
+    border-radius: 5px;
+    background: url('imagez/grind.jpg');
+    position: relative;
+    margin-bottom: 25px;
+	text-shadow: 10px 10px 10px black;
+}
+
+
+#iconContainer
+{
+	font-family: 'brankovic';
+}
+
